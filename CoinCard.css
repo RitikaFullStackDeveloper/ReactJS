@@ -1,0 +1,18 @@
+.coin-card{
+    height: 150px;
+  width: 200px;
+    border-style:dotted;
+    border-color: lightseagreen;
+}
+.coin-img{
+    height: 70px;
+    width: 70px;
+    border-radius: 80%;
+  
+}
+.img-div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;  /* Change column to row */
+    /* gap: 4px;  Adds space between images */
+}

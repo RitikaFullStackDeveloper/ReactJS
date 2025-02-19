@@ -1,0 +1,13 @@
+.panel{
+    height: 200px;
+    width: 50%;
+    /* margin-bottom: 20%; */
+    background-color:transparent;
+}
+.coin-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
