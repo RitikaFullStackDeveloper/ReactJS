@@ -1,0 +1,67 @@
+.main-container {
+    background-color: white; 
+    width: 100%; 
+    height: 100vh;
+  }
+  .movie-poster{
+    height: 100px;
+    width: 100px;
+  }
+  /* Panel.css */
+
+.panel-container {
+  padding: 20px;
+}
+
+.movie-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.movie-item {
+  margin-bottom: 20px; /* Adds space between each movie division */
+}
+
+.movie-details {
+  display: flex;
+  flex-direction: column;
+ 
+
+  padding: 15px;
+  border: 2px solid #ddd; /* Adds a border */
+  border-radius: 8px; /* Rounds the edges */
+  background-color: #f9f9f9; /* Light background */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1); /* Adds a slight shadow */
+  margin-bottom: 15px; /* Space between divisions */
+}
+
+.movie-poster {
+  width: 100px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  /* margin-right: 60%; */
+  border-radius: 5px; /* Slight rounding on image */
+}
+
+.movie-info {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.rating-btn {
+  width: 60px;
+  margin-left: 15px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ffcc00;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.rating-btn:hover {
+  background-color: #ffdb4d;
+}

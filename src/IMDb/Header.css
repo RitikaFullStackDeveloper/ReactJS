@@ -1,0 +1,58 @@
+/* .Header{
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    background-color:black;
+ 
+}
+.search-btn {
+    height: 36px;
+    width: 600px;
+    background-color: white;
+    /* margin-left: 50px; */
+    /* border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+.imdb-logo{
+    height: 40px;
+    margin-left: 20px;
+} */ 
+
+
+/*  */
+/* Header Styling */
+.Header {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 0 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* IMDb Logo */
+.imdb-logo {
+    height: 40px;
+    cursor: pointer;
+}
+
+/* Search Button */
+.search-btn {
+    height: 36px;
+    width: 600px;
+    max-width: 80%;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: 100px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
